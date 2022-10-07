@@ -1,0 +1,102 @@
+nav{
+    background-color: rgb(205, 236, 246);
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 30px;
+}
+
+nav img{
+    width: 70px;
+    height: 40px;
+    display: flex;
+}
+
+body{
+    background-color:white;
+}
+
+button{
+    background-color:black;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.gif img{
+    width: 600px;
+    height: 600px;
+    margin-left: 450px;
+}
+
+
+.button{
+    margin-left: 700px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+
+.gif{
+    margin: auto;
+}
+
+.mini{
+    text-align: center;
+    background-image: url("images/maison.webp");
+    height: 700px;
+    width: auto;
+    display: flex;
+}
+
+strong{
+    font-size: x-large;
+    margin: 350px; 
+    display: inline-block;  
+}
+
+
+.para{
+    font-size: xx-large;
+    display: flex;
+    height: 800px;
+}
+
+.para h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+
+.rigth{
+    text-align: right;
+}
+
+.text{
+    font-size: xx-large;
+    text-align: center;
+    padding:100px ;
+    background-color: rgb(205, 236, 246);
+    border: 1px solid black;
+}   
+
+.block{
+    height: 800px;
+    background-image: url("images/enceinte.webp")
+
+}
