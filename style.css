@@ -4,27 +4,46 @@ nav{
     display: flex;
     border: 1px solid black;
     align-items: center;
-    border-radius: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;   
 }
 
-nav img{
-    width: 70px;
-    height: 40px;
-    display: flex;
+.logo{
+    width: 8%;
 }
+.loupe{
+    width: 4%;
+}
+.panier{
+    width: 5%;
+}
+
 
 body{
     background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 button{
     background-color:black;
     color: white;
+    justify-content: space-around; 
+    text-decoration: none;
 }
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    border-color: black;    
+}
+
 
 ul{
     list-style: none;
-    display: flex;
+    display: flex; 
+    text-decoration: none;
 }
 
 
@@ -34,20 +53,20 @@ h1{
 
 
 .gif img{
-    width: 600px;
-    height: 600px;
-    margin-left: 450px;
+    width: 42%;
+    height: 42%;
+    margin-left: 30%;
 }
 
 
-.button{
-    margin-left: 700px;
-    width: 100px;
-    height: 100px;
+.prix{
+    margin-left: 47%;
+    width: 100%;
+    height: 100%;
     text-align: center;
     display: flex;
-    padding: 10px;
 }
+
 
 .gif{
     margin: auto;
@@ -56,16 +75,20 @@ h1{
 .mini{
     text-align: center;
     background-image: url("images/maison.webp");
-    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700%;
     width: auto;
     display: flex;
 }
 
 strong{
     font-size: x-large;
-    margin: 350px; 
+    margin: 23%; 
     display: inline-block;  
 }
+
 
 
 .para{
@@ -80,23 +103,277 @@ strong{
     display: flex;
     text-align: center;
     width: 100%;
+    opacity: 0;
+}
+
+.para:hover  h1{
+    opacity: 1;
 }
 
 
-.rigth{
+
+
+.block{ 
+    position: relative;
+    height: 800px;
+    flex-wrap: wrap; 
+
+    background: url("images/mini\ bo.jpg");
+    background-repeat: no-repeat ;  
+    background-size: cover; 
+    background-position: center;
+}
+
+.first{
+    font-size: large;
+    flex-wrap: wrap;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    left: 6%;
+}
+
+.rigth{  
+    font-size: large;
     text-align: right;
+    flex-wrap: wrap;
+    width: 45%;
+    position: absolute;
+    top: 35%;
+    right: 5%;
 }
+
+.second{
+     display: flex;
+     align-items: flex-end;
+     justify-content: left;
+     font-size: large;
+     flex-wrap: wrap;
+     width: 45%;
+     position: absolute;
+     bottom: 3%;
+     left: 6%;
+}
+
 
 .text{
     font-size: xx-large;
     text-align: center;
-    padding:100px ;
+    padding:10% ;
     background-color: rgb(205, 236, 246);
-    border: 1px solid black;
-}   
+    opacity: 0;
+} 
 
-.block{
-    height: 800px;
-    background-image: url("images/enceinte.webp")
+.text:hover{
+    opacity: 1;
+}
+
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.social img{
+    width: 10%;
+    height: 10%;
+}
+
+
+.pub{
+    background:url("images/pub.jpg") ;
+    background-repeat: no-repeat ;  
+    background-size: cover; 
+    background-position: center;
+    height: 600px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.partenariat{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.models img{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:10px 5px 5px black;
+}
+
+.blanc{
+    width: 30%;
+    border-color: black;
+    border-radius: 20%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.white{
+    color: rgb(174, 168, 160);
+    text-align: start;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.noir{
+    width: 30%;
+    border-color: black;
+    border-radius: 20%;
+    margin-left: 65%;
+}
+.black{
+    color: black;
+    text-align: end;
+    margin-right: 18%;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.bleu{
+    width: 30%;
+    border-color: black;
+    justify-content: right;
+    align-items: center;
+    border-radius: 20%;
+    margin-left: 5%;
+}
+.aqua{
+    color:rgb(51, 187, 187);
+    text-align: start;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.rouge{
+    width: 30%;
+    border-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 15%;
+    margin-left: 65%;
+    margin-bottom: 5%;
+}
+.corail{
+    color: coral;
+    text-align: end;
+    margin-right: 18%;
+    margin-bottom: 5%;
+    font-size: larger;
+}
+
+
+
+.contact{
+    background-color:rgb(205, 236, 246) ;
+}
+
+.facebook{
+    width: 30%;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    nav{
+        width: 100%;
+        flex-wrap:wrap ;
+        position: inherit;
+    }
+
+    nav h2{
+        width: 30%;
+        margin-right: 30%;
+    }
+
+    .logo{
+        width: 20%;
+        flex-wrap: wrap;
+    }
+
+    .panier{
+        width: 7%;
+        margin-top: 30%;
+    }
+    
+    .loupe{
+        width: 7%;
+        margin-top: 30% ;
+    }
+    
+    body{
+        width: 100%;
+    }
+
+
+    button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .prix{
+        margin-left: 37%;
+    }
+    .gif{
+        width: 80%;
+    }
+
+    h2{
+        font-size: medium;
+
+    }
+    ul{        
+        display: block;
+        margin-left: 0%;
+        padding: 0%;
+    }
+
+    .gif img{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+
+    h1{ 
+        width: 95%;
+
+    }
+    .para h1{
+        width: 90%;
+    }
+
+
+    .block{
+        width: 100%;
+    }
+
+    .block img{
+        width: 100%;
+    }
+
+    .partenariat{
+        font-size: medium;
+    }
 
 }
