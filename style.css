@@ -286,6 +286,17 @@ a {
 
 .contact{
     background-color:rgb(205, 236, 246) ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .facebook{
@@ -376,4 +387,7 @@ a {
         font-size: medium;
     }
 
+    .facebook{
+        width: 90%;
+    }
 }
